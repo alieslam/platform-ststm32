@@ -36,6 +36,8 @@ core_variant_dir = join(env.PioPlatform().get_package_dir(
 
 if variant in listdir(core_variant_dir):
     env.SConscript("arduino/stm32duino.py")
+elif variant == "elkrem":
+    env.SConscript("arduino/elkrem.py")
 else:
     # STM32 legacy core supported families
     if "f1" in mcu:

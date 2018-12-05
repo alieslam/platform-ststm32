@@ -1,0 +1,20 @@
+{
+	"build": {
+			"core": "arduino",
+			"f_cpu": "120000000L",
+			"cpu": "cortex-m3",
+			"mcu": "stm32f205rbt6",
+			"variant": "elkrem"
+	},
+	"frameworks": [
+    "arduino"
+	],
+	"name": "Elkrem Board (stm32f205)",
+	"platform": "ststm32",
+	"upload": {
+			"maximum_ram_size": 131072,
+			"maximum_size": 1024000
+	},
+	"url": "https://developer.mbed.org/platforms/ST-Nucleo-F411RE/",
+	"vendor": "ST"
+}
