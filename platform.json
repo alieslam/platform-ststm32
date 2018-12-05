@@ -14,8 +14,6 @@
   },
   "version": "4.5.0",
   "packageRepositories": [
-    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-    "http://dl.platformio.org/packages/manifest.json",
     "https://www.dropbox.com/s/o47mescksyr61ha/manifest.json?dl=1"
   ],
   "frameworks": {
@@ -34,10 +32,6 @@
     "libopencm3": {
       "package": "framework-libopencm3",
       "script": "builder/frameworks/libopencm3/libopencm3.py"
-    },
-    "arduino": {
-      "package": "framework-arduinoststm32",
-      "script": "builder/frameworks/arduino.py"
     },
     "arduino": {
       "package": "framework-arduinoelkrem",

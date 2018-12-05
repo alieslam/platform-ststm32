@@ -1,0 +1,30 @@
+{
+    "framework-arduinoelkrem": [
+        {
+        "sha1": "7d0cf5fea4386fdafbd6e2d3f852185a2de4474b",
+        "system": "*",
+        "url": "https://www.dropbox.com/s/awolpc0ejjyhwlb/framework-arduinoelkrem.tar.gz?dl=1",
+        "version": "1.0.0"
+        }
+    ],
+    "tool-elkrem": [
+        {
+            "sha1": "2866740ff123c1a2e6b9272e16ee6d322ab18fcd", 
+            "system": "*", 
+            "url": "https://www.dropbox.com/s/k8nq19o5ebwmc6w/tool-elkrem.tar.gz?dl=1", 
+            "version": "1.0.0"
+        }
+    ],
+    "toolchain-gccarmnoneeabi": [
+        {
+          "sha1": "7209e8b7d8b1988cbc182f370fde3508a6a1580b", 
+          "system": [
+			"windows", 
+			"windows_amd64", 
+			"windows_x86"
+		  ], 
+          "url": "https://www.dropbox.com/s/4cn2269qhoz7h3l/toolchain-gccarmnoneeabi.tar.gz?dl=1", 
+          "version": "1.50301.0"
+        }
+    ]
+}
