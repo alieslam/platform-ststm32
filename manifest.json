@@ -1,26 +1,3237 @@
 {
-    "framework-arduinoelkrem": [
-        {
-        "sha1": "7d0cf5fea4386fdafbd6e2d3f852185a2de4474b",
-        "system": "*",
-        "url": "https://www.dropbox.com/s/awolpc0ejjyhwlb/framework-arduinoelkrem.tar.gz?dl=1",
+    "contrib-piohome": [
+      {
+        "sha1": "9944c08b090322c92a20e315d11d1fa49538c52d", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/contrib-piohome-1.0.6.tar.gz", 
+        "version": "1.0.6"
+      }
+    ], 
+    "contrib-pysite": [
+      {
+        "sha1": "0519f9c1c689dcba43a4d964859cfab3c560ca82", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/contrib-pysite-darwin_x86_64-0.3.2.tar.gz", 
+        "version": "0.3.2"
+      }, 
+      {
+        "sha1": "80647ddcbe38ea15df7237878f6b1a05d17650d6", 
+        "system": "freebsd_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/contrib-pysite-freebsd_amd64-0.3.2.tar.gz", 
+        "version": "0.3.2"
+      }, 
+      {
+        "sha1": "93d3025f76ce59c7349277e775c7e50294f070a9", 
+        "system": "linux_aarch64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/contrib-pysite-linux_aarch64-0.3.2.tar.gz", 
+        "version": "0.3.2"
+      }, 
+      {
+        "sha1": "7b7207dcaff55f630c8bc3152d0903cb37b5a4f0", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/contrib-pysite-linux_armv6l-0.3.2.tar.gz", 
+        "version": "0.3.2"
+      }, 
+      {
+        "sha1": "a2e28f30edeba7a10551de4c6be28e5633123faf", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/contrib-pysite-linux_i686-0.3.2.tar.gz", 
+        "version": "0.3.2"
+      }, 
+      {
+        "sha1": "b370319316537652b2ed9b01a5f3a516036126ee", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/contrib-pysite-linux_x86_64-0.3.2.tar.gz", 
+        "version": "0.3.2"
+      }, 
+      {
+        "sha1": "ba32b7aac56e0926f89917be70371b07f44740ac", 
+        "system": "windows_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/contrib-pysite-windows_amd64-0.3.2.tar.gz", 
+        "version": "0.3.2"
+      }, 
+      {
+        "sha1": "6181a8e1bf5a96fd5c5dde992a63fbcc28ccc647", 
+        "system": "windows_x86", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/contrib-pysite-windows_x86-0.3.2.tar.gz", 
+        "version": "0.3.2"
+      }
+    ], 
+    "framework-arduinoavr": [
+      {
+        "sha1": "c09e1519b2aa86365ea1831321805bd2fc1117c0", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoavr-1.10608.2.tar.gz", 
+        "version": "1.10608.2"
+      }, 
+      {
+        "sha1": "e2ae676edc9d0b3dc493c11d58cd77c17de22df7", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoavr-1.10612.1.tar.gz", 
+        "version": "1.10612.1"
+      }, 
+      {
+        "sha1": "fe5b0edd2eabc8d86221fd7c0b34839494a97fcb", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoavr-1.10617.4.tar.gz", 
+        "version": "1.10617.4"
+      }, 
+      {
+        "sha1": "5018a24edbf26ef3e874ebd7bd9108a819ef58b2", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoavr-1.10618.4.tar.gz", 
+        "version": "1.10618.4"
+      }, 
+      {
+        "sha1": "4bb63e0747b238ef26bd092b5de18e254e8db0f1", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoavr-1.10619.0.tar.gz", 
+        "version": "1.10619.0"
+      }, 
+      {
+        "sha1": "914f3f3c1a4815e8495504fc50f43e98175e3465", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoavr-1.10620.2.tar.gz", 
+        "version": "1.10620.2"
+      }, 
+      {
+        "sha1": "6f98c48c65c1dd54fa0382a4ecbcdee6e0956a1f", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoavr-1.10621.1.tar.gz", 
+        "version": "1.10621.1"
+      }, 
+      {
+        "sha1": "77fc1945e127ba577ffbf08f0bc6d258d3db49c1", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoavr-1.10623.0.tar.gz", 
+        "version": "1.10623.0"
+      }
+    ], 
+    "framework-arduinoespressif32": [
+      {
+        "sha1": "553fe9ef85dbcff8c0f9ecbc4ada3901a723e91c", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif32-1.1.5.tar.gz", 
+        "version": "1.1.5"
+      }, 
+      {
+        "sha1": "b9747122dd9955bfb47ead0ab5125c857c79f75f", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif32-1.10000.0.tar.gz", 
+        "version": "1.10000.0"
+      }, 
+      {
+        "sha1": "27df506d863696ef51caf4cbb08e3470abf01f17", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif32-1.2.0.tar.gz", 
+        "version": "1.2.0"
+      }, 
+      {
+        "sha1": "a36e2dc833f2a6152b341b2dd9f54d4335a8ba0e", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif32-1.3.2.tar.gz", 
+        "version": "1.3.2"
+      }, 
+      {
+        "sha1": "0288a325553de873652bb6c2a6ca2a26ffbf5c8b", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif32-1.4.0.tar.gz", 
+        "version": "1.4.0"
+      }, 
+      {
+        "sha1": "136891e8096981a2bb9289afc6edef09773ffcd6", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif32-1.5.3.tar.gz", 
+        "version": "1.5.3"
+      }, 
+      {
+        "sha1": "c4fc7c6d3ee8ee8fd02b2441e9abda4821005aa6", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif32-1.6.0.tar.gz", 
+        "version": "1.6.0"
+      }, 
+      {
+        "sha1": "e1e34dad077e53d38f67f932ba86bb8f7316247c", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif32-2.10000.0.tar.gz", 
+        "version": "2.10000.0"
+      }
+    ], 
+    "framework-arduinoespressif8266": [
+      {
+        "sha1": "6002908fd6d8ff524684628c9cd342b1e99284d4", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif8266-1.20300.1.tar.gz", 
+        "version": "1.20300.1"
+      }, 
+      {
+        "sha1": "ac1f3ceb11b8c7c2f5df53ff62555e5508061b24", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif8266-1.20400.3.tar.gz", 
+        "version": "1.20400.3"
+      }, 
+      {
+        "sha1": "d96d3faa53dec7a997b46079be88180cced6f3e6", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif8266-1.20401.2.tar.gz", 
+        "version": "1.20401.2"
+      }, 
+      {
+        "sha1": "5e8fe07de9274afd01264137758ac6ebfe320ed2", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoespressif8266-2.20402.3.tar.gz", 
+        "version": "2.20402.3"
+      }
+    ], 
+    "framework-arduinointel": [
+      {
+        "sha1": "c423bba7bf3b40787c351e72b08fd68fe16f3df4", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinointel-1.10006.0.tar.gz", 
+        "version": "1.10006.0"
+      }, 
+      {
+        "sha1": "7221a33147ab150be8b499ca698821d6dc23fcdc", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinointel-1.20002.0.tar.gz", 
+        "version": "1.20002.0"
+      }
+    ], 
+    "framework-arduinolinuxarm": [
+      {
+        "sha1": "2b4c1476a2d3fcd4770a3d0a7151f1abc2109dbf", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinolinuxarm-1.tar.gz", 
+        "version": "1.308.0"
+      }
+    ], 
+    "framework-arduinomicrochippic32": [
+      {
+        "sha1": "6dd688d40f0e348d65225bf60399d7142f7e6f25", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinomicrochippic32-1.10301.0.tar.gz", 
+        "version": "1.10301.0"
+      }, 
+      {
+        "sha1": "3edcd10d56e78a13957e48567e0e7b1ad32e1f42", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinomicrochippic32-1.10403.0.tar.gz", 
+        "version": "1.10403.0"
+      }
+    ], 
+    "framework-arduinomsp430": [
+      {
+        "sha1": "5e1b7f363325866475949ad2add115122983a37e", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinomsp430-1.10601.0.tar.gz", 
+        "version": "1.10601.0"
+      }
+    ], 
+    "framework-arduinonordicnrf5": [
+      {
+        "sha1": "135740a7a10cabdf630b05c221463eac43082a63", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinonordicnrf5-0.3.0.tar.gz", 
+        "version": "0.3.0"
+      }, 
+      {
+        "sha1": "815e92b0a7d04d3bd87a02d008dd5fbef9f57052", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinonordicnrf5-0.4.0.tar.gz", 
+        "version": "0.4.0"
+      }, 
+      {
+        "sha1": "da0794444a68970d028de74c076243373b35687a", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinonordicnrf5-0.5.1.tar.gz", 
+        "version": "0.5.1"
+      }, 
+      {
+        "sha1": "63003aff80a0d692b6eb4dd8107863311ba23720", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinonordicnrf5-1.501.0.tar.gz", 
+        "version": "1.501.0"
+      }
+    ], 
+    "framework-arduinonordicnrf51": [
+      {
+        "sha1": "0744d02087637b16dfe313ea7cabfe967d3023d6", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinonordicnrf51-1.20302.0.tar.gz", 
+        "version": "1.20302.0"
+      }
+    ], 
+    "framework-arduinosam": [
+      {
+        "sha1": "b752b9a199feb94c3a53ae5c1608f7c03718908f", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-1.10608.3.tar.gz", 
+        "version": "1.10608.3"
+      }, 
+      {
+        "sha1": "0c3d503159864ad30d9e258aa37e442ae7a57b1d", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-1.10611.0.tar.gz", 
+        "version": "1.10611.0"
+      }, 
+      {
+        "sha1": "5cbe87026583d73e214a7e9cb4bdac1ed653f2a0", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-2.10611.0.tar.gz", 
+        "version": "2.10611.0"
+      }, 
+      {
+        "sha1": "363cbb16cc1271145a9df2dbf05888d8adbf18c1", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-2.10614.0.tar.gz", 
+        "version": "2.10614.0"
+      }, 
+      {
+        "sha1": "1bca4080cebf12ab840ba1fc0f84f40b7638bef8", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-2.10615.0.tar.gz", 
+        "version": "2.10615.0"
+      }, 
+      {
+        "sha1": "2fa7a77c760cd2aff08667623da60fc70b70400f", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-2.10616.1.tar.gz", 
+        "version": "2.10616.1"
+      }, 
+      {
+        "sha1": "8e199e999191915412540c70f5946f8507313da7", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-2.10617.0.tar.gz", 
+        "version": "2.10617.0"
+      }, 
+      {
+        "sha1": "f0c99b88fce53c0b426abb98a3b3340371e80883", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-2.10618.1.tar.gz", 
+        "version": "2.10618.1"
+      }, 
+      {
+        "sha1": "95207d74daa41e177ab8229f6511fddf2f74eadb", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-3.10618.0.tar.gz", 
+        "version": "3.10618.0"
+      }, 
+      {
+        "sha1": "b83cd2a23c2201c0156bf5f3e1456d512ff5b111", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinosam-3.10619.0.tar.gz", 
+        "version": "3.10619.0"
+      }
+    ], 
+    "framework-arduinostm32mxchip": [
+      {
+        "sha1": "8c1e5355e915915b8c4379c0d156df204c45fac2", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinostm32mxchip-1.0.1.tar.gz", 
+        "version": "1.0.1"
+      }, 
+      {
+        "sha1": "b4e3e46a1ac5f017e780b27ca0709260d72bf95b", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinostm32mxchip-1.3.2.tar.gz", 
+        "version": "1.3.2"
+      }
+    ], 
+    "framework-arduinoststm32": [
+      {
+        "sha1": "09a44e661f9b637421826f4395ceb7ced6bb87cb", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoststm32-2.0.0.tar.gz", 
+        "version": "2.0.0"
+      }, 
+      {
+        "sha1": "25a25574675295e7d635df2d9f822ed7d310ddb2", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoststm32-2.0.170723.tar.gz", 
+        "version": "2.0.170723"
+      }, 
+      {
+        "sha1": "f49fa2dc7ace75f16ecc719bae8b0527ad8c1cb3", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoststm32-2.1.180219.tar.gz", 
+        "version": "2.1.180219"
+      }, 
+      {
+        "sha1": "9d4cac3a27150e82f6feb479f5fbfe653e305b10", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoststm32-2.2.180809.tar.gz", 
+        "version": "2.2.180809"
+      }, 
+      {
+        "sha1": "6caba234b45e9ec90b8be8a30d3fa7b13e412c1d", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoststm32-3.10300.181019.tar.gz", 
+        "version": "3.10300.181019"
+      }
+    ], 
+    "framework-arduinoteensy": [
+      {
+        "sha1": "baa3e3c8e7e411b8f5f7918d11fecce08a7c531b", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoteensy-1.135.0.tar.gz", 
+        "version": "1.135.0"
+      }, 
+      {
+        "sha1": "3cc0670966ce4fd855762f30ba05b2cc0541580b", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoteensy-1.136.0.tar.gz", 
+        "version": "1.136.0"
+      }, 
+      {
+        "sha1": "7303a4aa9ddabb22db499999abb68e1876598798", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoteensy-1.140.0.tar.gz", 
+        "version": "1.140.0"
+      }, 
+      {
+        "sha1": "6e4638aa3c41fd02621158b86cbe152a327d6c71", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoteensy-1.141.0.tar.gz", 
+        "version": "1.141.0"
+      }, 
+      {
+        "sha1": "14ca4a8a3f34f048533c63059aa9642c16d63cf2", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-arduinoteensy-1.144.0.tar.gz", 
+        "version": "1.144.0"
+      }
+    ], 
+    "framework-cmsis": [
+      {
+        "sha1": "33f064194cc1360f141f1a36ac1d36b22839c020", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-cmsis-1.40300.0.tar.gz", 
+        "version": "1.40300.0"
+      }
+    ], 
+    "framework-energiamsp430": [
+      {
+        "sha1": "f6a913072d3959c8c00c3a91fb45908ee6aa4d71", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-energiamsp430-1.10610.0.tar.gz", 
+        "version": "1.10610.0"
+      }
+    ], 
+    "framework-energiativa": [
+      {
+        "sha1": "be26cdd42f6520e0614f6a352f617df7700441ce", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-energiativa-1.10002.0.tar.gz", 
+        "version": "1.10002.0"
+      }
+    ], 
+    "framework-espidf": [
+      {
+        "sha1": "be6ee2428b7843ee659789fbdd76b9f60ef1aa39", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-1.200.0.tar.gz", 
+        "version": "1.200.0"
+      }, 
+      {
+        "sha1": "a9df161d7a6c953b5523c518325377505233be3c", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-2.200.0.tar.gz", 
+        "version": "2.200.0"
+      }, 
+      {
+        "sha1": "309e849fdf03bddad013f3b225fd689a0e5781a2", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-2.210.0.tar.gz", 
+        "version": "2.210.0"
+      }, 
+      {
+        "sha1": "cfeb0ad2e4839c4860eac5de8c594cf0be55791d", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-2.211.0.tar.gz", 
+        "version": "2.211.0"
+      }, 
+      {
+        "sha1": "9f3f111ebb5f155dce6585ff997c1c3ab6b36d8d", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-2.300.0.tar.gz", 
+        "version": "2.300.0"
+      }, 
+      {
+        "sha1": "b75a60a531cd136ee97913f31a1304e51a9dedbf", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-2.301.0.tar.gz", 
+        "version": "2.301.0"
+      }, 
+      {
+        "sha1": "a1d0a590e6b439cbc131517cfd6d4a97d0560b0d", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-2.302.0.tar.gz", 
+        "version": "2.302.0"
+      }, 
+      {
+        "sha1": "e6efa7bbe5c6aec88dd093a27524c0418dde763a", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-3.30003.0.tar.gz", 
+        "version": "3.30003.0"
+      }, 
+      {
+        "sha1": "1e78c1001aef0b3194bb75913217674772c6f925", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-3.30100.0.tar.gz", 
+        "version": "3.30100.0"
+      }, 
+      {
+        "sha1": "ed19f3ee8ed6265e9d5aae79f0af9316114d7dde", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-espidf-3.30101.0.tar.gz", 
+        "version": "3.30101.0"
+      }
+    ], 
+    "framework-freedom-e-sdk": [
+      {
+        "sha1": "572fee1268a4195c11408f04039b58bfa201e819", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-freedom-e-sdk-1.20180402.0.tar.gz", 
+        "version": "1.20180402.0"
+      }, 
+      {
+        "sha1": "d31a435fcd690189c93336926f977e0a1f2790bc", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-freedom-e-sdk-1.20181009.0.tar.gz", 
+        "version": "1.20181009.0"
+      }
+    ], 
+    "framework-gap_sdk": [
+      {
+        "sha1": "db34a27f00fc4696976547e8c449971ba61346a3", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-gap_sdk-1.2.181109.tar.gz", 
+        "version": "1.2.181109"
+      }, 
+      {
+        "sha1": "0f0a75a36d3cd11e6a7d3466cb645950cac5c34f", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-gap_sdk-2.0.0.tar.gz", 
+        "version": "2.0.0"
+      }
+    ], 
+    "framework-libopencm3": [
+      {
+        "sha1": "b91103a1886c930ac1234fba92a5d5c360fb0c12", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-libopencm3-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }
+    ], 
+    "framework-mbed": [
+      {
+        "sha1": "1955949a68728031a05dc78dab0c3157b70c6ff8", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-3.126.1.tar.gz", 
+        "version": "3.126.1"
+      }, 
+      {
+        "sha1": "63cdba87288ffa8f34cc96939d745cbc54184efa", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-3.131.0.tar.gz", 
+        "version": "3.131.0"
+      }, 
+      {
+        "sha1": "f04b520e0b91f0fc7c26091f88fd0f79a3354340", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-3.137.0.tar.gz", 
+        "version": "3.137.0"
+      }, 
+      {
+        "sha1": "039480eb504ab6caa485b33490af58ec42378130", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-3.142.0.tar.gz", 
+        "version": "3.142.0"
+      }, 
+      {
+        "sha1": "52dd84057effa218f1d308d645970a2604873f6e", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-3.144.0.tar.gz", 
+        "version": "3.144.0"
+      }, 
+      {
+        "sha1": "6dfa5ba1da8fa69e0ffd995c1bf55bd6a1951dd1", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.146.0.tar.gz", 
+        "version": "4.146.0"
+      }, 
+      {
+        "sha1": "291c1f3560e63e6a6b02acea95fdbd6ac8353d71", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.148.0.tar.gz", 
+        "version": "4.148.0"
+      }, 
+      {
+        "sha1": "68202ac728f6ba2c9009c01453754d7d14e8fc6a", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.149.0.tar.gz", 
+        "version": "4.149.0"
+      }, 
+      {
+        "sha1": "5260ebcaf349d185867f8c319dc4b439f85d33b1", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.150.0.tar.gz", 
+        "version": "4.150.0"
+      }, 
+      {
+        "sha1": "7c639c823d368d4e140f6692a9623ba383e8fc18", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.151.0.tar.gz", 
+        "version": "4.151.0"
+      }, 
+      {
+        "sha1": "226a561dc5f95f16df799137c52eebe049fb9c88", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.152.0.tar.gz", 
+        "version": "4.152.0"
+      }, 
+      {
+        "sha1": "c7ec951cacb72c77316549f18b10952bede1a11c", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.154.0.tar.gz", 
+        "version": "4.154.0"
+      }, 
+      {
+        "sha1": "e76a056d43bc439d45e292558e30e699889b1143", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.156.0.tar.gz", 
+        "version": "4.156.0"
+      }, 
+      {
+        "sha1": "5448284a30244b830e8368577f14038b4a89cd19", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.157.0.tar.gz", 
+        "version": "4.157.0"
+      }, 
+      {
+        "sha1": "e1ea9bfd170d450c3848c057ea6e052d2efd44df", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.50701.0.tar.gz", 
+        "version": "4.50701.0"
+      }, 
+      {
+        "sha1": "e358d20d6f4371869520d89d67522d15530b2822", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.50703.1.tar.gz", 
+        "version": "4.50703.1"
+      }, 
+      {
+        "sha1": "8cce65d4b355cb86a149e82844aea05074df6d13", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.50707.0.tar.gz", 
+        "version": "4.50707.0"
+      }, 
+      {
+        "sha1": "a3728600dea46531ad8fec2500af066f2575b138", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.50802.0.tar.gz", 
+        "version": "4.50802.0"
+      }, 
+      {
+        "sha1": "4b42d481b409294c8a610b6fe2f771f368842937", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-4.50806.1.tar.gz", 
+        "version": "4.50806.1"
+      }, 
+      {
+        "sha1": "e0be95907dcb3087798a93be2fe47a01b9419de9", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-5.50904.1.tar.gz", 
+        "version": "5.50904.1"
+      }, 
+      {
+        "sha1": "2f64f8b53b6e4cbfe7889d9ac9e07093aff9aa0a", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-mbed-5.51001.181029.tar.gz", 
+        "version": "5.51001.181029"
+      }
+    ], 
+    "framework-spl": [
+      {
+        "sha1": "de9fce97b69b63104d9168d9166f7dac31349419", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-spl-1.10201.0.tar.gz", 
+        "version": "1.10201.0"
+      }, 
+      {
+        "sha1": "8e445e41225370242a41326d45f527a30d9527a7", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-spl-2.10201.0.tar.gz", 
+        "version": "2.10201.0"
+      }
+    ], 
+    "framework-stm32cube": [
+      {
+        "sha1": "ae129eba0f80a6c48d8749a3f32639bc37e4ccfa", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-stm32cube-1.0.0.tar.gz", 
         "version": "1.0.0"
-        }
-    ],
-    "tool-elkrem": [
-        {
-            "sha1": "2866740ff123c1a2e6b9272e16ee6d322ab18fcd", 
-            "system": "*", 
-            "url": "https://www.dropbox.com/s/k8nq19o5ebwmc6w/tool-elkrem.tar.gz?dl=1", 
-            "version": "1.0.0"
-        }
-    ],
+      }, 
+      {
+        "sha1": "d97ace737633ae40f7c9f296be243fb4964b4e99", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-stm32cube-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "cec4ef2d1b7c114103d8a250b944a3853ad50ef6", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-stm32cube-1.2.0.tar.gz", 
+        "version": "1.2.0"
+      }
+    ], 
+    "framework-wiringpi": [
+      {
+        "sha1": "3486899f06bae95cdc2667b32c62f0585bc5a35d", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-wiringpi-1.232.0.tar.gz", 
+        "version": "1.232.0"
+      }, 
+      {
+        "sha1": "da845a72cb0cbee2fcbd6d487939bbb98ec0d3e9", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/framework-wiringpi-linux_armv6l-1.242.0.tar.gz", 
+        "version": "1.242.0"
+      }
+    ], 
+    "sdk-esp8266": [
+      {
+        "sha1": "e0a8db5f9dc1c0d323e22dcd5e6dc60ff1290b23", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/sdk-esp8266-1.10502.0.tar.gz", 
+        "version": "1.10502.0"
+      }
+    ], 
+    "tool-arduino101load": [
+      {
+        "sha1": "91e9be5e2923323dda8d3316d98857c9ac12f451", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-arduino101load-darwin_x86_64-1.124.0.tar.gz", 
+        "version": "1.124.0"
+      }, 
+      {
+        "sha1": "6b4e4e2d28a484fde240f44f78dea511648f7688", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-arduino101load-darwin_x86_64-1.201.0.tar.gz", 
+        "version": "1.201.0"
+      }, 
+      {
+        "sha1": "e32771ebdba442a990b930e68f9d2c64ecfa81a2", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-arduino101load-linux_i686-1.124.0.tar.gz", 
+        "version": "1.124.0"
+      }, 
+      {
+        "sha1": "c0c5db69aac9836c7dcf5590dcf829523d385cea", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-arduino101load-linux_i686-1.201.0.tar.gz", 
+        "version": "1.201.0"
+      }, 
+      {
+        "sha1": "80d0e65efe68160f70246cfb45656dc7e6972a47", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-arduino101load-linux_x86_64-1.124.0.tar.gz", 
+        "version": "1.124.0"
+      }, 
+      {
+        "sha1": "f35c222f7c959e29b137feec90cd9bf33d3880ea", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-arduino101load-linux_x86_64-1.201.0.tar.gz", 
+        "version": "1.201.0"
+      }, 
+      {
+        "sha1": "1034bb5a1be4b58742525030df25f778347d5f08", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-arduino101load-windows-1.124.0.tar.gz", 
+        "version": "1.124.0"
+      }, 
+      {
+        "sha1": "109c18774a5e5764a2198494ef77206a3371b57d", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-arduino101load-windows-1.201.0.tar.gz", 
+        "version": "1.201.0"
+      }
+    ], 
+    "tool-avrdude": [
+      {
+        "sha1": "80e7fa8c4b885f553a48ec8cffddb1a24777413d", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-darwin_x86_64-1.60001.1.tar.gz", 
+        "version": "1.60001.1"
+      }, 
+      {
+        "sha1": "3c0450d4d8326dd94a82ee46f97e90581b5fb899", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-darwin_x86_64-1.60300.2.tar.gz", 
+        "version": "1.60300.2"
+      }, 
+      {
+        "sha1": "a3031aee2b75ac9d4b57e8783c0564649287eb5e", 
+        "system": "freebsd_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-freebsd_amd64-1.60300.0.tar.gz", 
+        "version": "1.60300.0"
+      }, 
+      {
+        "sha1": "d021f051550f0cc06a1fbc371125fa171b2dbcae", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-linux_armv6l-1.60001.1.tar.gz", 
+        "version": "1.60001.1"
+      }, 
+      {
+        "sha1": "4e4bbccba7ba19a61779d2cf610b33a2cd76bd10", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-linux_armv6l-1.60300.2.tar.gz", 
+        "version": "1.60300.2"
+      }, 
+      {
+        "sha1": "d946fcf1e213e786fe9e30a85eab8e64ddb6e278", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-linux_i686-1.60001.1.tar.gz", 
+        "version": "1.60001.1"
+      }, 
+      {
+        "sha1": "f748be5fe12b0af32c4b5f77d2777f382baa2cfa", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-linux_i686-1.60300.2.tar.gz", 
+        "version": "1.60300.2"
+      }, 
+      {
+        "sha1": "1e13e617839de2b4d9e454d1a7d6821a09e6a49a", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-linux_x86_64-1.60001.1.tar.gz", 
+        "version": "1.60001.1"
+      }, 
+      {
+        "sha1": "cab3a2d2535d209c2312353be350f6943e188f45", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-linux_x86_64-1.60300.2.tar.gz", 
+        "version": "1.60300.2"
+      }, 
+      {
+        "sha1": "df8bca368044c1f9a571fb3f0e098c9f3bfadaa1", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-windows-1.60001.1.tar.gz", 
+        "version": "1.60001.1"
+      }, 
+      {
+        "sha1": "37e6719edd0522be118c184cabc4f824f8228b2f", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-avrdude-windows-1.60300.2.tar.gz", 
+        "version": "1.60300.2"
+      }
+    ], 
+    "tool-bossac": [
+      {
+        "sha1": "5e7d4c4081f0bd4fb935422bbb20b3b0ccfc00de", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-darwin_x86_64-1.10601.0.tar.gz", 
+        "version": "1.10601.0"
+      }, 
+      {
+        "sha1": "59b767df1f360ccd0067e9d4cd02cc6977e9b1c9", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-darwin_x86_64-1.10700.0.tar.gz", 
+        "version": "1.10700.0"
+      }, 
+      {
+        "sha1": "7149ce9939a84d95beb5844abf5531d662ffb1f4", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-darwin_x86_64-1.10900.0.tar.gz", 
+        "version": "1.10900.0"
+      }, 
+      {
+        "sha1": "51b590508d50c37ce6ae66e27a243a26ec4eeb2e", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-linux_armv6l-1.10601.0.tar.gz", 
+        "version": "1.10601.0"
+      }, 
+      {
+        "sha1": "47ff320f1a1f9d27ef661c8027ff92d7d06609b9", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-linux_armv6l-1.10700.0.tar.gz", 
+        "version": "1.10700.0"
+      }, 
+      {
+        "sha1": "ef75f7d24006ef4a8a82e7e118a57cdfa46f9efa", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-linux_armv6l-1.10900.0.tar.gz", 
+        "version": "1.10900.0"
+      }, 
+      {
+        "sha1": "9131ad757ce1bd87148984b9b270ae3feb7d19a3", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-linux_i686-1.10601.0.tar.gz", 
+        "version": "1.10601.0"
+      }, 
+      {
+        "sha1": "f53fa57f9a2f3c7e906430ab65e3969657862bb8", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-linux_i686-1.10700.0.tar.gz", 
+        "version": "1.10700.0"
+      }, 
+      {
+        "sha1": "1d8766db7668c6241786d7edee33bcf88afcbb91", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-linux_i686-1.10900.0.tar.gz", 
+        "version": "1.10900.0"
+      }, 
+      {
+        "sha1": "70d023c55da9162359e5a37ea169f414da8f0544", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-linux_x86_64-1.10601.0.tar.gz", 
+        "version": "1.10601.0"
+      }, 
+      {
+        "sha1": "a1a9c6db169d38c5f178fea5c676ed53a6d8c397", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-linux_x86_64-1.10700.0.tar.gz", 
+        "version": "1.10700.0"
+      }, 
+      {
+        "sha1": "5a5d810c936be4c69034f63719a68bb1f8543130", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-linux_x86_64-1.10900.0.tar.gz", 
+        "version": "1.10900.0"
+      }, 
+      {
+        "sha1": "f56ae0b38cb1fee8b6a6008a64c8b28f393e2063", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-windows-1.10601.0.tar.gz", 
+        "version": "1.10601.0"
+      }, 
+      {
+        "sha1": "6d279a90d3294b24ddd04666746daaf0dc79d32a", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-windows-1.10700.0.tar.gz", 
+        "version": "1.10700.0"
+      }, 
+      {
+        "sha1": "b3ab470be21b757afaf5ce2b031c2b4c2e236637", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-bossac-windows-1.10900.0.tar.gz", 
+        "version": "1.10900.0"
+      }
+    ], 
+    "tool-espotapy": [
+      {
+        "sha1": "f4ac059630561211c5beea63eb500e221a418b56", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-espotapy-1.0.0.tar.gz", 
+        "version": "1.0.0"
+      }, 
+      {
+        "sha1": "d3810f94797c704ad961470acb522feeab83049f", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-espotapy-1.1.2.tar.gz", 
+        "version": "1.1.2"
+      }
+    ], 
+    "tool-esptool": [
+      {
+        "sha1": "b7464c04ac500f00c4ebe67065e14d410abf1d62", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-darwin_x86_64-1.409.0.tar.gz", 
+        "version": "1.409.0"
+      }, 
+      {
+        "sha1": "e4aefee4f2ebe89eacc6f5d66bc9b34fa16599d0", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-darwin_x86_64-1.413.0.tar.gz", 
+        "version": "1.413.0"
+      }, 
+      {
+        "sha1": "9dbd4736b33ef481a97b72c5042badff6bdc1689", 
+        "system": [
+          "freebsd_amd64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-freebsd_amd64-1.409.0.tar.gz", 
+        "version": "1.409.0"
+      }, 
+      {
+        "sha1": "2c10d2239c76e274b39d94a4c4e8ac8589e6e58b", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-linux_armv6l-1.409.0.tar.gz", 
+        "version": "1.409.0"
+      }, 
+      {
+        "sha1": "bdfd4890e232df1876df63c8e676b12119e89c9f", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-linux_armv6l-1.413.0.tar.gz", 
+        "version": "1.413.0"
+      }, 
+      {
+        "sha1": "d2fd8e6bdd4301b662797576a14d92c0a77cbf14", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-linux_i686-1.409.0.tar.gz", 
+        "version": "1.409.0"
+      }, 
+      {
+        "sha1": "be36294e93075f181efa65b5fc393d10161910f9", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-linux_i686-1.413.0.tar.gz", 
+        "version": "1.413.0"
+      }, 
+      {
+        "sha1": "15b2771c6bf1003b25e2c93308ddd2fe9fe746e6", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-linux_x86_64-1.409.0.tar.gz", 
+        "version": "1.409.0"
+      }, 
+      {
+        "sha1": "c9d125e04c8f324186f344c2a42bf849ee5fb85c", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-linux_x86_64-1.413.0.tar.gz", 
+        "version": "1.413.0"
+      }, 
+      {
+        "sha1": "220ecbdf958b969b60de873e552102117ba6dc4b", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-windows-1.409.0.tar.gz", 
+        "version": "1.409.0"
+      }, 
+      {
+        "sha1": "e45e8c942b63ef3dfab7799139d844704fb1bad0", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptool-windows-1.413.0.tar.gz", 
+        "version": "1.413.0"
+      }
+    ], 
+    "tool-esptoolpy": [
+      {
+        "sha1": "8361ec114bbe2c08846ca224e357b4f3d3b09927", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptoolpy-1.20000.0.tar.gz", 
+        "version": "1.20000.0"
+      }, 
+      {
+        "sha1": "085b6d3cc0d966d12a94fafec3b69cbc10f64ae5", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptoolpy-1.20100.0.tar.gz", 
+        "version": "1.20100.0"
+      }, 
+      {
+        "sha1": "8e1652ca3ffc1cd97d7f7e9444f59fd439ac8ff7", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptoolpy-1.20310.0.tar.gz", 
+        "version": "1.20310.0"
+      }, 
+      {
+        "sha1": "2293aea64815aeec9355a8bae8a0d399777a4df6", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptoolpy-1.20410.0.tar.gz", 
+        "version": "1.20410.0"
+      }, 
+      {
+        "sha1": "bd9d3dd9be3d242d0cba82652bb7432c9de0ee68", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-esptoolpy-1.20500.0.tar.gz", 
+        "version": "1.20500.0"
+      }
+    ], 
+    "tool-jlink": [
+      {
+        "sha1": "e55fa62f9c740e713865b5a007b02ca500411909", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-jlink-darwin_x86_64-1.63208.0.tar.gz", 
+        "version": "1.63208.0"
+      }, 
+      {
+        "sha1": "70af9c6b56a27207f9ae9b71318092b8474123aa", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-jlink-linux_i686-1.63208.0.tar.gz", 
+        "version": "1.63208.0"
+      }, 
+      {
+        "sha1": "f3223765109f01fa0d91b60ed6c880f08f6fe7da", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-jlink-linux_x86_64-1.63208.0.tar.gz", 
+        "version": "1.63208.0"
+      }, 
+      {
+        "sha1": "e33b5b8de8f528cd591f92310e049b58d104a672", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-jlink-windows-1.63208.0.tar.gz", 
+        "version": "1.63208.0"
+      }
+    ], 
+    "tool-linuxuploader": [
+      {
+        "sha1": "c38ab27432e611fb4933b2943e0ba7b45eebe4d9", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-linuxuploader-darwin_x86_64-1.102.0.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "c18dc6cdd6eb1538129731b71cd970f3a1d83195", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-linuxuploader-darwin_x86_64-1.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "ae2f9ab68c9a55a97974a1ffb0e343179c5418c7", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-linuxuploader-linux_i686-1.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "5f15f1c5024dc155df4e8764ea0508d1ea548d4a", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-linuxuploader-linux_x86_64-1.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "f678b5aad0f084554a23cdfe34a5a19347c24673", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-linuxuploader-windows-1.tar.gz", 
+        "version": "1.102.0"
+      }
+    ], 
+    "tool-lm4flash": [
+      {
+        "sha1": "91910dd071b8d150dd7b6a60e03737d79f988991", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-lm4flash-darwin_x86_64-1.103.0.tar.gz", 
+        "version": "1.103.0"
+      }, 
+      {
+        "sha1": "340e8747a468da800f1c6e638daf7caa7a4ad2ba", 
+        "system": [
+          "linux_i686", 
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-lm4flash-linux-1.103.0.tar.gz", 
+        "version": "1.103.0"
+      }, 
+      {
+        "sha1": "3deb10348b19e0169315c3908d818d836896b670", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-lm4flash-windows-1.103.0.tar.gz", 
+        "version": "1.103.0"
+      }
+    ], 
+    "tool-micronucleus": [
+      {
+        "sha1": "2769586911dbc017d16ce32d4346676ce8f6d246", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-micronucleus-darwin_x86_64-1.200.4.tar.gz", 
+        "version": "1.200.4"
+      }, 
+      {
+        "sha1": "e1c8c765d99ce370ed956f12d2a53a94d313d6ce", 
+        "system": [
+          "freebsd_amd64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-micronucleus-freebsd_amd64-1.200.0.tar.gz", 
+        "version": "1.200.0"
+      }, 
+      {
+        "sha1": "dccc09adc1aff08c436f91924a9d8c80e54de78f", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-micronucleus-linux_armv6l-1.200.0.tar.gz", 
+        "version": "1.200.0"
+      }, 
+      {
+        "sha1": "846c503f6f27bbfcb8d73ed536002ba75d9efad5", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-micronucleus-linux_i686-1.200.4.tar.gz", 
+        "version": "1.200.4"
+      }, 
+      {
+        "sha1": "92d681ac5d7045f6666a61070f6d4a76ff39072b", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-micronucleus-linux_x86_64-1.200.4.tar.gz", 
+        "version": "1.200.4"
+      }, 
+      {
+        "sha1": "c9520b078b791cdca204d10f463d7c5926a172a1", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-micronucleus-windows-1.200.4.tar.gz", 
+        "version": "1.200.4"
+      }
+    ], 
+    "tool-mkspiffs": [
+      {
+        "sha1": "1cc93baaa9e2dcb8223f535cd31531d088b1d838", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-darwin_x86_64-1.102.0.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "d7c4b39431692d0ddfd300019d5e222741ed6e16", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-darwin_x86_64-1.200.0.tar.gz", 
+        "version": "1.200.0"
+      }, 
+      {
+        "sha1": "a4243d8968f61baaa38b102b08863dc24082fad5", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-darwin_x86_64-2.230.0.tar.gz", 
+        "version": "2.230.0"
+      }, 
+      {
+        "sha1": "0d8e33991ee721d2628a94f38abedb8ba5df80d0", 
+        "system": "freebsd_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-freebsd_amd64-1.102.0.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "fd165eb1fed536e3af5f5136f4c19ff396d85c88", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_armv6l-1.102.0.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "3e46e68ba118a36c26006af5ac0de7b35b78c806", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_armv6l-1.200.0.tar.gz", 
+        "version": "1.200.0"
+      }, 
+      {
+        "sha1": "7ad39a8345f6d34f62c5f8da1149a0d7cd5dae10", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_armv6l-2.230.0.tar.gz", 
+        "version": "2.230.0"
+      }, 
+      {
+        "sha1": "bdf9dba14cc8b49b30aca599c9a1820ffdd368f1", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_i686-1.102.0.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "23f6ea85179949ea1fa15720016d3cbf6a715e5a", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_i686-1.200.0.tar.gz", 
+        "version": "1.200.0"
+      }, 
+      {
+        "sha1": "031488a8d0300fe55f1801e3afa5455d0a6e7051", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_i686-2.230.0.tar.gz", 
+        "version": "2.230.0"
+      }, 
+      {
+        "sha1": "dde5cfe37c083f183f6a697e361c09a94e801e61", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_x86_64-1.102.0.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "12cc66ce397152fe81ed96681b9fd60e4bb93d62", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_x86_64-1.200.0.tar.gz", 
+        "version": "1.200.0"
+      }, 
+      {
+        "sha1": "927d71939e158f2ed4b35e11a1e785e60eb25acf", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_x86_64-2.230.0.tar.gz", 
+        "version": "2.230.0"
+      }, 
+      {
+        "sha1": "ce763772e2f802c788602020802151b1b803e10a", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-windows-1.102.0.tar.gz", 
+        "version": "1.102.0"
+      }, 
+      {
+        "sha1": "780c7a3508ec05b8793e8c67c04501cb6ea04920", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-windows-1.200.0.tar.gz", 
+        "version": "1.200.0"
+      }, 
+      {
+        "sha1": "74cae5154906a59b9a8c17128b69ed48e554e0a1", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-windows-2.230.0.tar.gz", 
+        "version": "2.230.0"
+      }
+    ], 
+    "tool-mspdebug": [
+      {
+        "sha1": "388e073783121ac451db30b9ba756d1bfd2595dd", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mspdebug-darwin_x86_64-1.2200.0.tar.gz", 
+        "version": "1.2200.0"
+      }, 
+      {
+        "sha1": "064d56f8ec0a8db16c01129df346bc114fb2bcd9", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mspdebug-linux_i686-1.2200.0.tar.gz", 
+        "version": "1.2200.0"
+      }, 
+      {
+        "sha1": "456a51e6021b790aee313064cfda788a97adc290", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mspdebug-linux_x86_64-1.2200.0.tar.gz", 
+        "version": "1.2200.0"
+      }, 
+      {
+        "sha1": "0f49870e174d162e87d1bcbdd969ee190ac4f112", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-mspdebug-windows-1.2200.0.tar.gz", 
+        "version": "1.2200.0"
+      }
+    ], 
+    "tool-nrfjprog": [
+      {
+        "sha1": "8159fafb801c977c4c258504785674afb56f5e8d", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-nrfjprog-darwin_x86_64-1.90702.0.tar.gz", 
+        "version": "1.90702.0"
+      }, 
+      {
+        "sha1": "b8e8b21703599b6fb31e2e82ac3a6cd50d985efa", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-nrfjprog-linux_i686-1.90702.0.tar.gz", 
+        "version": "1.90702.0"
+      }, 
+      {
+        "sha1": "67ba811b6c50f51adb0df4fc5a05f2d630ffdb53", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-nrfjprog-linux_x86_64-1.90702.0.tar.gz", 
+        "version": "1.90702.0"
+      }, 
+      {
+        "sha1": "aa65bb90ef7a0dedad754e907a15707593aa3046", 
+        "system": [
+          "windows_x86", 
+          "windows_amd64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-nrfjprog-windows_x86-1.90702.0.tar.gz", 
+        "version": "1.90702.0"
+      }
+    ], 
+    "tool-openocd": [
+      {
+        "sha1": "1518dea1ba65d6ca45f52aa7768fbe68ee0a77e8", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-darwin_x86_64-1.1000.6.tar.gz", 
+        "version": "1.1000.6"
+      }, 
+      {
+        "sha1": "088fb5ff3e89a44e15a622dcb645440ecce1542e", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-darwin_x86_64-1.900.2.tar.gz", 
+        "version": "1.900.2"
+      }, 
+      {
+        "sha1": "9e6b493a7626f5fa5540006018b1f5db948edf6f", 
+        "system": [
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-linux_armv7l-1.1000.4.tar.gz", 
+        "version": "1.1000.4"
+      }, 
+      {
+        "sha1": "6ecd69f149fa6563890acc4cd431c989b3be2716", 
+        "system": [
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-linux_armv7l-1.900.2.tar.gz", 
+        "version": "1.900.2"
+      }, 
+      {
+        "sha1": "483a7c70cf837b9e2fd77bc9b73e0a44d1f96eb0", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-linux_i686-1.1000.6.tar.gz", 
+        "version": "1.1000.6"
+      }, 
+      {
+        "sha1": "4f4d6414a9fb7e7a7fdb5f8d8e96f02e4f019ea3", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-linux_i686-1.900.2.tar.gz", 
+        "version": "1.900.2"
+      }, 
+      {
+        "sha1": "1b0382bf7025641131d0a44e7a6a10db16c7f135", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-linux_x86_64-1.1000.6.tar.gz", 
+        "version": "1.1000.6"
+      }, 
+      {
+        "sha1": "73ea21bd32e59b2e20b082e0cb12484814d6629d", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-linux_x86_64-1.900.2.tar.gz", 
+        "version": "1.900.2"
+      }, 
+      {
+        "sha1": "94ab4a7192ac3d553d376e824d3ea74926192075", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-windows-1.900.2.tar.gz", 
+        "version": "1.900.2"
+      }, 
+      {
+        "sha1": "198c4734a2359f359ee971cd616910433b0af506", 
+        "system": "windows_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-windows_amd64-1.1000.6.tar.gz", 
+        "version": "1.1000.6"
+      }, 
+      {
+        "sha1": "1f3f7f9fde214e83c599b0fac3044d9af1c372ca", 
+        "system": "windows_x86", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-windows_x86-1.1000.6.tar.gz", 
+        "version": "1.1000.6"
+      }
+    ], 
+    "tool-openocd-esp32": [
+      {
+        "sha1": "080724d95cadb179c1544f9eca6d34a9c1d395cf", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-esp32-darwin_x86_64-1.1000.20181105.tar.gz", 
+        "version": "1.1000.20181105"
+      }, 
+      {
+        "sha1": "d4f8b4ad998d8c1585901353b4adb73f53bbd31f", 
+        "system": [
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-esp32-linux_armv7l-1.1000.20181105.tar.gz", 
+        "version": "1.1000.20181105"
+      }, 
+      {
+        "sha1": "485867c53bbf989cfcddf22241b8e69f9e93b1ea", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-esp32-linux_x86_64-1.1000.20181105.tar.gz", 
+        "version": "1.1000.20181105"
+      }, 
+      {
+        "sha1": "583a461f332ab27c8d7fa87c6d6cfc36233dfb78", 
+        "system": [
+          "windows_x86", 
+          "windows_amd64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-esp32-windows_x86-1.1000.20181105.tar.gz", 
+        "version": "1.1000.20181105"
+      }
+    ], 
+    "tool-openocd-riscv": [
+      {
+        "sha1": "9b517b1e3436e04b442ef3193ca6ede19a89b9c8", 
+        "system": "darwin_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-riscv-darwin_x86_64-1.20180707.0.tar.gz", 
+        "version": "1.20180707.0"
+      }, 
+      {
+        "sha1": "28af932ddaf14b1db096fbe541f164c08c5f5d3b", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-riscv-linux_x86_64-1.20180707.0.tar.gz", 
+        "version": "1.20180707.0"
+      }, 
+      {
+        "sha1": "11fcca94a81ab40141c87d3be726fbcbc4daa494", 
+        "system": "windows_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-openocd-riscv-windows_amd64-1.20180707.0.tar.gz", 
+        "version": "1.20180707.0"
+      }
+    ], 
+    "tool-pic32prog": [
+      {
+        "sha1": "7c660f64d006e1e93550b79435ef168c57e1be6d", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pic32prog-darwin_x86_64-2.20104.0.tar.gz", 
+        "version": "2.20104.0"
+      }, 
+      {
+        "sha1": "54d5c172f9852b33e9366d8e4ed662daf4f25be4", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pic32prog-linux_armv6l-2.20104.0.tar.gz", 
+        "version": "2.20104.0"
+      }, 
+      {
+        "sha1": "af7d9de158ba066614c219e98474fcdf3e6b2653", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pic32prog-linux_i686-2.20104.0.tar.gz", 
+        "version": "2.20104.0"
+      }, 
+      {
+        "sha1": "84542a577f975306d22d63efbe54c51855a07d13", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pic32prog-linux_x86_64-2.20104.0.tar.gz", 
+        "version": "2.20104.0"
+      }, 
+      {
+        "sha1": "08a9b4c265eb05e0bcd2f74ee3ccc3a2f4676aab", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pic32prog-windows-2.20104.0.tar.gz", 
+        "version": "2.20104.0"
+      }
+    ], 
+    "tool-pioplus": [
+      {
+        "sha1": "e335d3e66aec8d404c1471e54279a4067a1ab7f6", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pioplus-darwin_x86_64-1.5.3.tar.gz", 
+        "version": "1.5.3"
+      }, 
+      {
+        "sha1": "e2fd5c11c236b84dbfc664f15244c4a8285dbc32", 
+        "system": "freebsd_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pioplus-freebsd_amd64-1.5.3.tar.gz", 
+        "version": "1.5.3"
+      }, 
+      {
+        "sha1": "6e707ea31b796d16ef413c9dcc4911bdadc6c06f", 
+        "system": "linux_aarch64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pioplus-linux_aarch64-1.5.3.tar.gz", 
+        "version": "1.5.3"
+      }, 
+      {
+        "sha1": "2481c392f9da9bc651359d537a1971fde8095cbd", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pioplus-linux_armv6l-1.5.3.tar.gz", 
+        "version": "1.5.3"
+      }, 
+      {
+        "sha1": "ec5391f88f01733a788e04abf49f9c4998f4bd40", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pioplus-linux_i686-1.5.3.tar.gz", 
+        "version": "1.5.3"
+      }, 
+      {
+        "sha1": "ffe85600bbf176f420306ff884ad711d1ac07b0f", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pioplus-linux_x86_64-1.5.3.tar.gz", 
+        "version": "1.5.3"
+      }, 
+      {
+        "sha1": "418193c357efd15bbabc136251fe9425db6fbbd1", 
+        "system": "windows_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pioplus-windows_amd64-1.5.3.tar.gz", 
+        "version": "1.5.3"
+      }, 
+      {
+        "sha1": "67b94fd7eafcba5c963c04e1169a1756da57c168", 
+        "system": "windows_x86", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pioplus-windows_x86-1.5.3.tar.gz", 
+        "version": "1.5.3"
+      }
+    ], 
+    "tool-pulp_tools": [
+      {
+        "sha1": "bfc8bdd6b9d928b04a73ab14d67d181322fba7e6", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pulp_tools-darwin_x86_64-0.1.181108.tar.gz", 
+        "version": "0.1.181108"
+      }, 
+      {
+        "sha1": "bb979999b80ab299dc7cd94fbfdd1578e4a07a13", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pulp_tools-linux_x86_64-0.1.181108.tar.gz", 
+        "version": "0.1.181108"
+      }, 
+      {
+        "sha1": "48a4f58f6217dc498f7e11b428924a3ca1aaace6", 
+        "system": "windows_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pulp_tools-windows_amd64-0.1.181108.tar.gz", 
+        "version": "0.1.181108"
+      }
+    ], 
+    "tool-pyocd": [
+      {
+        "sha1": "e6a25caaf621e60dd1bed9795ea2776b568104d2", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pyocd-darwin_x86_64-0.801.0.tar.gz", 
+        "version": "0.801.0"
+      }, 
+      {
+        "sha1": "0e88ed00c11b7b1aa323994337a5072242fc803b", 
+        "system": "freebsd_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pyocd-freebsd_amd64-0.801.0.tar.gz", 
+        "version": "0.801.0"
+      }, 
+      {
+        "sha1": "0d9ac615dfb951d7e70541f62b8f73965d647d2c", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pyocd-linux_armv6l-0.801.0.tar.gz", 
+        "version": "0.801.0"
+      }, 
+      {
+        "sha1": "59f243dcf70dfd99a09343427fc37efb0406908c", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pyocd-linux_i686-0.801.0.tar.gz", 
+        "version": "0.801.0"
+      }, 
+      {
+        "sha1": "434799022adcc22786880af9cf7ee6233a26e75e", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pyocd-linux_x86_64-0.801.0.tar.gz", 
+        "version": "0.801.0"
+      }, 
+      {
+        "sha1": "438c0acfba3b2b1088ab7e0e49f6d0add2d49f4e", 
+        "system": "windows_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pyocd-windows_amd64-0.801.0.tar.gz", 
+        "version": "0.801.0"
+      }, 
+      {
+        "sha1": "93ea985a4d4754864b4363151e24b7aa22dc0a04", 
+        "system": "windows_x86", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-pyocd-windows_x86-0.801.0.tar.gz", 
+        "version": "0.801.0"
+      }
+    ], 
+    "tool-rfdloader": [
+      {
+        "sha1": "9db6868712a89c1bd37865d5d42eaa66e495d596", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-rfdloader-darwin_x86_64-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "779df0c0b049fe5a91203ebb73593e9c8f61fab3", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-rfdloader-linux_armv6l-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "92fd7b5db28ccbbe0601d141e17fe13d9c1ef8b0", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-rfdloader-linux_i686-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "27b7a271725b00a0f795914b3a393b0ee408e54f", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-rfdloader-linux_x86_64-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "32033a5a585db1be953ac82e3f3af84a368e2003", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-rfdloader-windows-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }
+    ], 
+    "tool-scons": [
+      {
+        "sha1": "81b2717d5a14e435ee1a98079bb38cff55a30ec2", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-scons-2.20501.7.tar.gz", 
+        "version": "2.20501.7"
+      }, 
+      {
+        "sha1": "4b047e65c7dba9a4d56b46e95330b0384c20d150", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-scons-3.30100.181120.tar.gz", 
+        "version": "3.30100.181120"
+      }
+    ], 
+    "tool-sreccat": [
+      {
+        "sha1": "aafe33c38c489a78bd648d9bde925ef4da67b031", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-sreccat-darwin_x86_64-1.164.0.tar.gz", 
+        "version": "1.164.0"
+      }, 
+      {
+        "sha1": "a6ad8734645debb833607ce0368301b89ecc1926", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-sreccat-linux_armv6l-1.164.0.tar.gz", 
+        "version": "1.164.0"
+      }, 
+      {
+        "sha1": "5bc4aae3c9591bf07bd99615901ffeaeb4b13481", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-sreccat-linux_i686-1.164.0.tar.gz", 
+        "version": "1.164.0"
+      }, 
+      {
+        "sha1": "e4ab56073efb7f4e7b357c010193bf231fa8f1ac", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-sreccat-linux_x86_64-1.164.0.tar.gz", 
+        "version": "1.164.0"
+      }, 
+      {
+        "sha1": "86d770e945fe3a5dde9dff7d5291070ddf88f87d", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-sreccat-windows-1.164.0.tar.gz", 
+        "version": "1.164.0"
+      }
+    ], 
+    "tool-stcgal": [
+      {
+        "sha1": "5484918a6b691103fed02de07d15c5fbc811a9fe", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stcgal-1.104.0.tar.gz", 
+        "version": "1.104.0"
+      }
+    ], 
+    "tool-stlink": [
+      {
+        "sha1": "28357a1d7e9defa7bdad5fb3472415d8c31b07be", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-darwin_x86_64-1.10200.0.tar.gz", 
+        "version": "1.10200.0"
+      }, 
+      {
+        "sha1": "ed1d1d42dc3d0141311956b89b9716d8eb33acd9", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-darwin_x86_64-1.10301.1.tar.gz", 
+        "version": "1.10301.1"
+      }, 
+      {
+        "sha1": "3f0dc828cc1590d1bc1c773114419a497a4dc55d", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-darwin_x86_64-1.10400.0.tar.gz", 
+        "version": "1.10400.0"
+      }, 
+      {
+        "sha1": "ceac11c6bb5a9a366c5ca87bf986d540e1842ac5", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-linux_armv6l-1.10200.0.tar.gz", 
+        "version": "1.10200.0"
+      }, 
+      {
+        "sha1": "51031318d4c1579a297447849a0b7ed80f062864", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-linux_armv6l-1.10301.0.tar.gz", 
+        "version": "1.10301.0"
+      }, 
+      {
+        "sha1": "636fbab0d8cb40dc87cf5be70a4d5a96c2a15de7", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-linux_armv6l-1.10400.0.tar.gz", 
+        "version": "1.10400.0"
+      }, 
+      {
+        "sha1": "4584cdbb4bfc9323b975a8a92980959058bc81ad", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-linux_i686-1.10200.0.tar.gz", 
+        "version": "1.10200.0"
+      }, 
+      {
+        "sha1": "d2cf8158ea91e503d9c34578d1737d165de012a3", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-linux_i686-1.10301.1.tar.gz", 
+        "version": "1.10301.1"
+      }, 
+      {
+        "sha1": "91fe43164ce31edc6cf21121d65c32061eabcd7e", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-linux_i686-1.10400.0.tar.gz", 
+        "version": "1.10400.0"
+      }, 
+      {
+        "sha1": "25b01ce0d4825a112cb1b1fa2dbc4de59656f825", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-linux_x86_64-1.10200.0.tar.gz", 
+        "version": "1.10200.0"
+      }, 
+      {
+        "sha1": "a2d512419479009702e81d7de34010399c270d84", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-linux_x86_64-1.10301.1.tar.gz", 
+        "version": "1.10301.1"
+      }, 
+      {
+        "sha1": "90c24db1d94b7555af7efff513effe60122cd302", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-linux_x86_64-1.10400.0.tar.gz", 
+        "version": "1.10400.0"
+      }, 
+      {
+        "sha1": "79187839584ce0d585791ffb124af59c95c9bc34", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-windows-1.10200.1.tar.gz", 
+        "version": "1.10200.1"
+      }, 
+      {
+        "sha1": "dfc53c39d10254013def26a6822490e965915e23", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-windows-1.10301.0.tar.gz", 
+        "version": "1.10301.0"
+      }, 
+      {
+        "sha1": "7d04188a59e807d15f61f59c6818393083f0315a", 
+        "system": [
+          "windows", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-windows-1.10400.0.tar.gz", 
+        "version": "1.10400.0"
+      }, 
+      {
+        "sha1": "bcc514f09dfe8fc012dcae3d4170b9bd0441d34d", 
+        "system": "windows_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stlink-windows_amd64-1.10400.0.tar.gz", 
+        "version": "1.10400.0"
+      }
+    ], 
+    "tool-stm32duino": [
+      {
+        "sha1": "69942c3c345d92a0ec0e81fbd8ff97f48b9fc1f1", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stm32duino-darwin_x86_64-1.0.0.tar.gz", 
+        "version": "1.0.0"
+      }, 
+      {
+        "sha1": "f2e0eefd912de951a564451467b537092594aee2", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stm32duino-linux_armv6l-1.0.0.tar.gz", 
+        "version": "1.0.0"
+      }, 
+      {
+        "sha1": "50e83157802a92d5796d36c53230f3120559cf93", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stm32duino-linux_i686-1.0.0.tar.gz", 
+        "version": "1.0.0"
+      }, 
+      {
+        "sha1": "6e06d4321bd9e1f905446afe677ec3552dcb48ba", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stm32duino-linux_x86_64-1.0.0.tar.gz", 
+        "version": "1.0.0"
+      }, 
+      {
+        "sha1": "d819606932b603189421a8771ba3be0154c3d83d", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-stm32duino-windows-1.0.0.tar.gz", 
+        "version": "1.0.0"
+      }
+    ], 
+    "tool-teensy": [
+      {
+        "sha1": "e64a60533ef4982d3a643dc491d61b86683fa9c1", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-darwin_x86_64-1.141.0.tar.gz", 
+        "version": "1.141.0"
+      }, 
+      {
+        "sha1": "29e7773925bae4e542da71a379346e0f2f740c1e", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-darwin_x86_64-1.21.0.tar.gz", 
+        "version": "1.21.0"
+      }, 
+      {
+        "sha1": "812c84e1391d3f3cb47af64104d4fab8c9efb24e", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-darwin_x86_64-1.3.0.tar.gz", 
+        "version": "1.3.0"
+      }, 
+      {
+        "sha1": "cc0502870ade17f90a2f60d605f89a422d86a3a2", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-linux_armv6l-1.21.1.tar.gz", 
+        "version": "1.21.1"
+      }, 
+      {
+        "sha1": "a1bfe5891257fb0bb386cc9b5c1ab9af64af0f42", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-linux_armv6l-1.3.0.tar.gz", 
+        "version": "1.3.0"
+      }, 
+      {
+        "sha1": "6857c9fcb1721622d8b75f994f7a89a3bf77e6c5", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-linux_i686-1.141.0.tar.gz", 
+        "version": "1.141.0"
+      }, 
+      {
+        "sha1": "9e6a8050944cf1cbe9925283cd920d2900c3edd3", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-linux_i686-1.21.0.tar.gz", 
+        "version": "1.21.0"
+      }, 
+      {
+        "sha1": "5ca2ba577f4587ab362e1d0c167e5b3c8a1eba7b", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-linux_i686-1.3.0.tar.gz", 
+        "version": "1.3.0"
+      }, 
+      {
+        "sha1": "a95add5e483d1a90dacad9bb75c9cef619e02170", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-linux_x86_64-1.141.0.tar.gz", 
+        "version": "1.141.0"
+      }, 
+      {
+        "sha1": "4aa6be9960e327470edb0c1658e5a5298ecdb052", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-linux_x86_64-1.21.0.tar.gz", 
+        "version": "1.21.0"
+      }, 
+      {
+        "sha1": "b26d6577c4bcd8895aab6663f02741fb1444961a", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-linux_x86_64-1.3.0.tar.gz", 
+        "version": "1.3.0"
+      }, 
+      {
+        "sha1": "56bf1684b74c9d612df09a4f9ce1495dbe983f6f", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-windows-1.141.0.tar.gz", 
+        "version": "1.141.0"
+      }, 
+      {
+        "sha1": "715ea0d0fd581035ac8d68730d78751d62554e79", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-windows-1.21.0.tar.gz", 
+        "version": "1.21.0"
+      }, 
+      {
+        "sha1": "f1bc475d3e1155082028b69b335e554268be67e6", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-teensy-windows-1.3.0.tar.gz", 
+        "version": "1.3.0"
+      }
+    ], 
+    "tool-unity": [
+      {
+        "sha1": "442eee1413e4b7c111560b2d837c5befa0d61d3e", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-unity-1.20302.1.tar.gz", 
+        "version": "1.20302.1"
+      }, 
+      {
+        "sha1": "eca7e12a54ff48444cc5dafebfec34f5fcca8af1", 
+        "system": "*", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/tool-unity-1.20403.0.tar.gz", 
+        "version": "1.20403.0"
+      }
+    ], 
+    "toolchain-atmelavr": [
+      {
+        "sha1": "a12205d6f24828ec2e6a1c3b603e4586ccd98d13", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-darwin_x86_64-1.40801.0.tar.gz", 
+        "version": "1.40801.0"
+      }, 
+      {
+        "sha1": "706efe469b40b783597649210c9dc994de76ea70", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-darwin_x86_64-1.40902.0.tar.gz", 
+        "version": "1.40902.0"
+      }, 
+      {
+        "sha1": "1f34488690cd67c383b5eea02438d7da3422e4d6", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-darwin_x86_64-1.50400.0.tar.gz", 
+        "version": "1.50400.0"
+      }, 
+      {
+        "sha1": "aee00419456d1167e23d0a49e7f24e7f40a675ca", 
+        "system": "freebsd_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-freebsd_amd64-1.40902.0.tar.gz", 
+        "version": "1.40902.0"
+      }, 
+      {
+        "sha1": "3ea7b937fa9f9421fc1f13c80faf85687217f59b", 
+        "system": "linux_aarch64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_aarch64-1.50400.0.tar.gz", 
+        "version": "1.50400.0"
+      }, 
+      {
+        "sha1": "684eae2820fdfc33ee24187d9202db7dd7daadcf", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_armv6l-1.40801.0.tar.gz", 
+        "version": "1.40801.0"
+      }, 
+      {
+        "sha1": "9124dee12aca7ce9c75584ac2130f34fe76ded8c", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_armv6l-1.40902.0.tar.gz", 
+        "version": "1.40902.0"
+      }, 
+      {
+        "sha1": "602b4f672488bd5bb4bf9532359fc7dd8561c3d4", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_armv6l-1.50400.0.tar.gz", 
+        "version": "1.50400.0"
+      }, 
+      {
+        "sha1": "7b9ba21744c4aca34f882aeae529c7055a29de6c", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_i686-1.40801.0.tar.gz", 
+        "version": "1.40801.0"
+      }, 
+      {
+        "sha1": "764952e6cb14fdca8a610a985ce76f7e280c1fcb", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_i686-1.40902.0.tar.gz", 
+        "version": "1.40902.0"
+      }, 
+      {
+        "sha1": "6e90458cee70a9fd099a6d8a808f6aec1a0d2023", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_i686-1.50400.0.tar.gz", 
+        "version": "1.50400.0"
+      }, 
+      {
+        "sha1": "7652285aa62ec581d08edf5d619d16f48a265412", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_x86_64-1.40801.0.tar.gz", 
+        "version": "1.40801.0"
+      }, 
+      {
+        "sha1": "311a6122870cd1d38112004dc2c8ef836f051a1e", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_x86_64-1.40902.0.tar.gz", 
+        "version": "1.40902.0"
+      }, 
+      {
+        "sha1": "c58560fc5aa63b4947d36f7321d820915bf7b39b", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-linux_x86_64-1.50400.0.tar.gz", 
+        "version": "1.50400.0"
+      }, 
+      {
+        "sha1": "0b7a084353f12b9332f75ed64af4aeabde31a95e", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-windows-1.40801.0.tar.gz", 
+        "version": "1.40801.0"
+      }, 
+      {
+        "sha1": "e49768f0003e1c524e7c632549ea6812731c9b44", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-windows-1.40902.1.tar.gz", 
+        "version": "1.40902.1"
+      }, 
+      {
+        "sha1": "223f6cad25a81a5722719c4f3026a3024c07f1fe", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-atmelavr-windows-1.50400.0.tar.gz", 
+        "version": "1.50400.0"
+      }
+    ], 
+    "toolchain-gccarma8gnueabihf": [
+      {
+        "sha1": "4c1f5688d95c3875273e7cd84af8db578f240790", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarma8gnueabihf-darwin_x86_64-1.tar.gz", 
+        "version": "1.40904.0"
+      }, 
+      {
+        "sha1": "4850ab9c41213968ee63a746fa0b6aca842001d2", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarma8gnueabihf-linux_i686-1.tar.gz", 
+        "version": "1.40904.0"
+      }, 
+      {
+        "sha1": "4583b5a69dd81d9af9fac154a48c3fd18ddcf6ff", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarma8gnueabihf-linux_x86_64-1.tar.gz", 
+        "version": "1.40904.0"
+      }, 
+      {
+        "sha1": "d5c1c610c7a38c48550604b1fb6971e4021c6e06", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarma8gnueabihf-windows-1.tar.gz", 
+        "version": "1.40904.0"
+      }
+    ], 
+    "toolchain-gccarmlinuxgnueabi": [
+      {
+        "sha1": "4606ce747ee2a59497e4859e6b22fce0c6df5904", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmlinuxgnueabi-darwin_x86_64-1.40802.0.tar.gz", 
+        "version": "1.40802.0"
+      }
+    ], 
     "toolchain-gccarmnoneeabi": [
-        {
-          "sha1": "7209e8b7d8b1988cbc182f370fde3508a6a1580b", 
-          "system": "*", 
-          "url": "https://www.dropbox.com/s/4cn2269qhoz7h3l/toolchain-gccarmnoneeabi.tar.gz?dl=1", 
-          "version": "1.50301.0"
-        }
+      {
+        "sha1": "ce8330f751a2bf904d2d2f4b9bdc9bc20e7e2ac5", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.40804.0.tar.gz", 
+        "version": "1.40804.0"
+      }, 
+      {
+        "sha1": "459145d29b058063fc9331dd246133551d549c69", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.50401.0.tar.gz", 
+        "version": "1.50401.0"
+      }, 
+      {
+        "sha1": "f8d57a0a48c097eb7a792224363dc84b65c5af83", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.60301.0.tar.gz", 
+        "version": "1.60301.0"
+      }, 
+      {
+        "sha1": "da58aa983a85d0bade9559a7f059f824bf8555c6", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-darwin_x86_64-1.70201.0.tar.gz", 
+        "version": "1.70201.0"
+      }, 
+      {
+        "sha1": "4d10e66493f53d4dbdb1a5ac917ff2bd191e790b", 
+        "system": "linux_aarch64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_aarch64-1.50401.0.tar.gz", 
+        "version": "1.50401.0"
+      }, 
+      {
+        "sha1": "1752753793beb56c121f1733db3f7213637afbb2", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_armv6l-1.40803.0.tar.gz", 
+        "version": "1.40803.0"
+      }, 
+      {
+        "sha1": "65cd0928e8c4c767b4c84d4f65ee6c7ef75a4129", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_armv6l-1.50401.0.tar.gz", 
+        "version": "1.50401.0"
+      }, 
+      {
+        "sha1": "300399ea13eb4bdd191b64c60f21c11357d9b7c5", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_armv6l-1.60301.0.tar.gz", 
+        "version": "1.60301.0"
+      }, 
+      {
+        "sha1": "5f4162b15e93f6eeb897a0f44113a1accf759f74", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_i686-1.40804.0.tar.gz", 
+        "version": "1.40804.0"
+      }, 
+      {
+        "sha1": "0e4fcad3172790e1f730965bc742d5f1b3095e5b", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_i686-1.50401.0.tar.gz", 
+        "version": "1.50401.0"
+      }, 
+      {
+        "sha1": "df2bc781a8ccdb93b26a95e776c632ba1e7ebe66", 
+        "system": "linux_i686", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_i686-1.60301.0.tar.gz", 
+        "version": "1.60301.0"
+      }, 
+      {
+        "sha1": "3d11f454954df6bc566319d8d7800255b144fa92", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_x86_64-1.40804.0.tar.gz", 
+        "version": "1.40804.0"
+      }, 
+      {
+        "sha1": "f9786a11a87e33ddc878f662e7106b5e1b559a94", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_x86_64-1.50401.0.tar.gz", 
+        "version": "1.50401.0"
+      }, 
+      {
+        "sha1": "d44f12945e5b50b3535893196efabcfaf1d911fa", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_x86_64-1.60301.0.tar.gz", 
+        "version": "1.60301.0"
+      }, 
+      {
+        "sha1": "b3fc8f1352c6fa76421b2a7df726fa63a0e0b7d3", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-linux_x86_64-1.70201.0.tar.gz", 
+        "version": "1.70201.0"
+      }, 
+      {
+        "sha1": "41a1de778ccc799e06ac97b08cff9045afb83522", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-windows-1.40804.0.tar.gz", 
+        "version": "1.40804.0"
+      }, 
+      {
+        "sha1": "1e263c0428a998640fe33f77d57def20241bb71f", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-windows-1.50401.0.tar.gz", 
+        "version": "1.50401.0"
+      }, 
+      {
+        "sha1": "d8a0bae5384a4e9099a1495254138aaf2c19afaa", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-windows-1.60301.0.tar.gz", 
+        "version": "1.60301.0"
+      }, 
+      {
+        "sha1": "0e4b61c1304a12ea5df9a894a918d35b33201a77", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccarmnoneeabi-windows-1.70201.0.tar.gz", 
+        "version": "1.70201.0"
+      }
+    ], 
+    "toolchain-gcclinux32": [
+      {
+        "sha1": "7b74b09df7a34cb08a1077ef85aaa0dc9ee55d52", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gcclinux32-darwin_x86_64-1.40801.0.tar.gz", 
+        "version": "1.40801.0"
+      }
+    ], 
+    "toolchain-gcclinux64": [
+      {
+        "sha1": "682e4bdb56be86d54d5810fb86b6e977537571b2", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gcclinux64-darwin_x86_64-1.40801.0.tar.gz", 
+        "version": "1.40801.0"
+      }
+    ], 
+    "toolchain-gccmingw32": [
+      {
+        "sha1": "900211855b0150c09d4693515d6c70f3fc9f46e2", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccmingw32-darwin_x86_64-1.40800.0.tar.gz", 
+        "version": "1.40800.0"
+      }, 
+      {
+        "sha1": "29d04b406fc46b91e78b48d9a7ba11056880250e", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccmingw32-linux_i686-1.40901.0.tar.gz", 
+        "version": "1.40901.0"
+      }, 
+      {
+        "sha1": "cd2f7172ab4adfed9fd740313edc79afd686aefa", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccmingw32-linux_x86_64-1.40900.0.tar.gz", 
+        "version": "1.40900.0"
+      }, 
+      {
+        "sha1": "aa852051962dae9d6666f1390fbbfd02f20fa9df", 
+        "system": [
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-gccmingw32-windows_x86-1.50100.0.tar.gz", 
+        "version": "1.50100.0"
+      }
+    ], 
+    "toolchain-icestorm": [
+      {
+        "sha1": "e873e4f3defb4fd642e5be02f07049ba2a2d88e1", 
+        "system": [
+          "darwin", 
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-darwin-1.10.2.tar.gz", 
+        "version": "1.10.2"
+      }, 
+      {
+        "sha1": "344ac123f152543fa01038ede6c0fb2cb7d341e5", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-darwin_x86_64-1.7.0.tar.gz", 
+        "version": "1.7.0"
+      }, 
+      {
+        "sha1": "d335601941d515735635b3a773f45c44fb9a1ed4", 
+        "system": [
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-linux_aarch64-1.10.1.tar.gz", 
+        "version": "1.10.1"
+      }, 
+      {
+        "sha1": "e0fcb1e9b99c27f0fa4c5f014b0e8447614f8fb2", 
+        "system": [
+          "linux_armv7l"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-linux_armv7l-1.10.1.tar.gz", 
+        "version": "1.10.1"
+      }, 
+      {
+        "sha1": "84434d526ad8a726396adb90f3155ca3de931589", 
+        "system": [
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-linux_armv7l-1.7.0.tar.gz", 
+        "version": "1.7.0"
+      }, 
+      {
+        "sha1": "30ea1c373cea4d1aab7fbb03a488970cb8a572d8", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-linux_i686-1.10.1.tar.gz", 
+        "version": "1.10.1"
+      }, 
+      {
+        "sha1": "a4fd5cae4b2a2a13251be18b256f53e61458e750", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-linux_i686-1.7.0.tar.gz", 
+        "version": "1.7.0"
+      }, 
+      {
+        "sha1": "fbc9289916401ca7aa8af15926444fa5c2d8169c", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-linux_x86_64-1.10.1.tar.gz", 
+        "version": "1.10.1"
+      }, 
+      {
+        "sha1": "3b229e48e9c7946b6fa480f89e15c5ce21625cfd", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-linux_x86_64-1.7.0.tar.gz", 
+        "version": "1.7.0"
+      }, 
+      {
+        "sha1": "e17e59294b2263337bb69d2be3917bb25dc0cd2f", 
+        "system": [
+          "windows", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-windows-1.10.1.tar.gz", 
+        "version": "1.10.1"
+      }, 
+      {
+        "sha1": "adc65cf86cb941e4cd739b96e23b8da21244eb13", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-windows-1.7.0.tar.gz", 
+        "version": "1.7.0"
+      }, 
+      {
+        "sha1": "d362c12e15d65a8a347e53556b600bb1aa6dc00e", 
+        "system": [
+          "windows_amd64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-icestorm-windows_amd64-1.10.1.tar.gz", 
+        "version": "1.10.1"
+      }
+    ], 
+    "toolchain-intelarc32": [
+      {
+        "sha1": "12551aa7dab77f9288d66dcca6cd5b157cd095ce", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-intelarc32-darwin_x86_64-1.40805.0.tar.gz", 
+        "version": "1.40805.0"
+      }, 
+      {
+        "sha1": "d8f6f5cbb2fdb932594553c47085a92cb5ce16aa", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-intelarc32-linux_i686-1.40805.0.tar.gz", 
+        "version": "1.40805.0"
+      }, 
+      {
+        "sha1": "68b6149c5dd72028a496a5db418b6ea613485212", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-intelarc32-linux_x86_64-1.40805.0.tar.gz", 
+        "version": "1.40805.0"
+      }, 
+      {
+        "sha1": "6dd8f59264e8e533672739be16500f8715b16be3", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-intelarc32-windows-1.40805.0.tar.gz", 
+        "version": "1.40805.0"
+      }
+    ], 
+    "toolchain-iverilog": [
+      {
+        "sha1": "f5f320c9967a2751b747bfe4b5a576043432e2f6", 
+        "system": [
+          "darwin", 
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-iverilog-darwin-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "385bf611f0b91f90a96f41e7d1540880732aa2d8", 
+        "system": [
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-iverilog-linux_aarch64-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "ee4f6306273c16fc1b76a693ed44ee964cd06ebf", 
+        "system": [
+          "linux_armv7l"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-iverilog-linux_armv7l-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "e533da9b1f32a160dcbaf92fab09338d72a74a85", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-iverilog-linux_i686-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "73a4f223419b18c40af787162bdc070eb59d9927", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-iverilog-linux_x86_64-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "f2b1f50c12ca2cf0471c30138873ff67f9f0f124", 
+        "system": [
+          "windows", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-iverilog-windows-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }, 
+      {
+        "sha1": "a6fc5dfdf5e3402121a1fb90da034b46b984da8f", 
+        "system": [
+          "windows_amd64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-iverilog-windows_amd64-1.1.0.tar.gz", 
+        "version": "1.1.0"
+      }
+    ], 
+    "toolchain-microchippic32": [
+      {
+        "sha1": "81c921b1588b21f95dca8a20ca8504748e3b66a6", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-microchippic32-darwin_x86_64-1.40803.142.tar.gz", 
+        "version": "1.40803.142"
+      }, 
+      {
+        "sha1": "2874ec3025f14006adc2ce31cc0f12e162eca7a0", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-microchippic32-linux_armv6l-1.40803.142.tar.gz", 
+        "version": "1.40803.142"
+      }, 
+      {
+        "sha1": "b2ee915996c5968988dc0e1a0218dd0454970820", 
+        "system": [
+          "linux_i686", 
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-microchippic32-linux_i686-1.40803.142.tar.gz", 
+        "version": "1.40803.142"
+      }, 
+      {
+        "sha1": "1cb28bca88fb59ec27b4b9bca8cebc7e71793e2e", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-microchippic32-windows-1.40803.142.tar.gz", 
+        "version": "1.40803.142"
+      }
+    ], 
+    "toolchain-riscv": [
+      {
+        "sha1": "7f66111930530334888d496749cc83380fc6b2ea", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-riscv-darwin_x86_64-1.70200.0.tar.gz", 
+        "version": "1.70200.0"
+      }, 
+      {
+        "sha1": "fb488a1b9f953a487af67efd3572c07ab90702bb", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-riscv-linux_x86_64-1.70200.0.tar.gz", 
+        "version": "1.70200.0"
+      }, 
+      {
+        "sha1": "5e92b5259838663c28f2cc3b691d90bbcb0cf38e", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-riscv-windows-1.70200.0.tar.gz", 
+        "version": "1.70200.0"
+      }
+    ], 
+    "toolchain-riscv-pulp": [
+      {
+        "sha1": "85840394700b27ee02d98f94e261a0d65fca210c", 
+        "system": "darwin_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-riscv-pulp-darwin_x86_64-1.70101.181014.tar.gz", 
+        "version": "1.70101.181014"
+      }, 
+      {
+        "sha1": "19dd742d1796837267c90b82d1cf13f13b09c95b", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-riscv-pulp-linux_x86_64-1.70101.181017.tar.gz", 
+        "version": "1.70101.181017"
+      }, 
+      {
+        "sha1": "121e231d8a64644296ecc97493c6f374887d7249", 
+        "system": "windows_amd64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-riscv-pulp-windows_amd64-1.70101.181014.tar.gz", 
+        "version": "1.70101.181014"
+      }, 
+      {
+        "sha1": "2a1de63b9eda2021d2271e9c86b637b1a5a71738", 
+        "system": "windows_x86", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-riscv-pulp-windows_x86-1.70101.180627.tar.gz", 
+        "version": "1.70101.180627"
+      }
+    ], 
+    "toolchain-sdcc": [
+      {
+        "sha1": "687461fbc4608479ec3ab50c4063fde15b03dd6d", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-sdcc-darwin_x86_64-1.30603.9771.tar.gz", 
+        "version": "1.30603.9771"
+      }, 
+      {
+        "sha1": "dbfc8c0b109fd970a087f80eebbd4c393ff452ce", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-sdcc-linux_i686-1.30603.9771.tar.gz", 
+        "version": "1.30603.9771"
+      }, 
+      {
+        "sha1": "6bb01a476cc82f9e18a1d7b2434cce6287f289b8", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-sdcc-linux_x86_64-1.30603.9771.tar.gz", 
+        "version": "1.30603.9771"
+      }, 
+      {
+        "sha1": "ad227143247fed591d5053fbd10be822d03b1405", 
+        "system": [
+          "windows", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-sdcc-windows-1.30603.9771.tar.gz", 
+        "version": "1.30603.9771"
+      }, 
+      {
+        "sha1": "5d02c4e0da37b54f90ee6457145dde3d134883e2", 
+        "system": [
+          "windows_amd64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-sdcc-windows_amd64-1.30603.9771.tar.gz", 
+        "version": "1.30603.9771"
+      }
+    ], 
+    "toolchain-timsp430": [
+      {
+        "sha1": "97e2e195d28904e88aa8f6257816bd946c988627", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-timsp430-darwin_x86_64-1.40603.1.tar.gz", 
+        "version": "1.40603.1"
+      }, 
+      {
+        "sha1": "4eeb8077496bb188f0ebdb86764f2ae140b3b48e", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-timsp430-linux_i686-1.40603.0.tar.gz", 
+        "version": "1.40603.0"
+      }, 
+      {
+        "sha1": "829e1294a4d72a98ef202308dcc98f40a1eb11d6", 
+        "system": "linux_x86_64", 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-timsp430-linux_x86_64-1.40603.1.tar.gz", 
+        "version": "1.40603.1"
+      }, 
+      {
+        "sha1": "c12314bf1d37bde328df32646d704f84faba4274", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-timsp430-windows-1.40603.1.tar.gz", 
+        "version": "1.40603.1"
+      }
+    ], 
+    "toolchain-xtensa": [
+      {
+        "sha1": "bee3eeff0eb26d7058de3378b428389b53554dd8", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-darwin_x86_64-1.40802.0.tar.gz", 
+        "version": "1.40802.0"
+      }, 
+      {
+        "sha1": "a673ffc6c2f5e7ebd9b92ea4048a101e300fa8ad", 
+        "system": [
+          "freebsd_amd64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-freebsd_amd64-1.40802.0.tar.gz", 
+        "version": "1.40802.0"
+      }, 
+      {
+        "sha1": "e7434fe5478f2582ab2638c25eb15ba4ac9501ea", 
+        "system": [
+          "linux_armv6l", 
+          "linux_armv7l", 
+          "linux_armv8l"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-linux_armv6l-1.40802.1.tar.gz", 
+        "version": "1.40802.1"
+      }, 
+      {
+        "sha1": "221c4bab9ddda1303c916ee44b0a5b600785274b", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-linux_i686-1.40802.0.tar.gz", 
+        "version": "1.40802.0"
+      }, 
+      {
+        "sha1": "80aee4c43fcf0aed234fd89f032c01f160544d24", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-linux_x86_64-1.40802.0.tar.gz", 
+        "version": "1.40802.0"
+      }, 
+      {
+        "sha1": "f5fa002b0689d7cc9e1770b946ec682638ca1127", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-windows-1.40802.0.tar.gz", 
+        "version": "1.40802.0"
+      }
+    ], 
+    "toolchain-xtensa32": [
+      {
+        "sha1": "dc1067ed48bcc37a9adf31d11cbd22d3a56093e8", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa32-darwin_x86_64-1.50200.2.tar.gz", 
+        "version": "1.50200.2"
+      }, 
+      {
+        "sha1": "823639e22441ec697671e5c711c56a9fe115f722", 
+        "system": [
+          "darwin_x86_64", 
+          "darwin_i386"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa32-darwin_x86_64-2.50200.80.tar.gz", 
+        "version": "2.50200.80"
+      }, 
+      {
+        "sha1": "94716a9ea9d1762be3f09c41a47cc97db7fb783b", 
+        "system": [
+          "linux_armv7l", 
+          "linux_armv8l", 
+          "linux_aarch64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa32-linux_armv7l-2.50200.80.tar.gz", 
+        "version": "2.50200.80"
+      }, 
+      {
+        "sha1": "031302929f62e10c199cf675dc02d19e62d69349", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa32-linux_i686-1.50200.2.tar.gz", 
+        "version": "1.50200.2"
+      }, 
+      {
+        "sha1": "3566142b3f58eca3c335dc62d7aee937120bb2b6", 
+        "system": [
+          "linux_i686"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa32-linux_i686-2.50200.80.tar.gz", 
+        "version": "2.50200.80"
+      }, 
+      {
+        "sha1": "f2c561ea47bfcec65f46227a9e06152df9728c8d", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa32-linux_x86_64-1.50200.2.tar.gz", 
+        "version": "1.50200.2"
+      }, 
+      {
+        "sha1": "9e394b2b152fbce509fd026500bae3bbfd1f00c2", 
+        "system": [
+          "linux_x86_64"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa32-linux_x86_64-2.50200.80.tar.gz", 
+        "version": "2.50200.80"
+      }, 
+      {
+        "sha1": "ab302941fd855245d0ff36169fd0f2919040704b", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa32-windows-1.50200.2.tar.gz", 
+        "version": "1.50200.2"
+      }, 
+      {
+        "sha1": "dc2824a336441b16e9e1dcddd1026d122d8d39a6", 
+        "system": [
+          "windows", 
+          "windows_amd64", 
+          "windows_x86"
+        ], 
+        "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa32-windows-2.50200.80.tar.gz", 
+        "version": "2.50200.80"
+      }
     ]
-}
+  }
